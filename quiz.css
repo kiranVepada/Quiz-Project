@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+
+.bg-container{
+    background-color: #3b4864;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qize-card{
+    background-color: #bac9e8;
+    padding: 40px;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.question{
+    color:  #030b1c;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.hr{
+    background-color:  #030b1c;
+    margin-top: 15px;
+    height: 1px;
+}
+.button-container{
+    width: 100%;
+    height: 60%;
+}
+.opt-button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.opt-button:hover{
+    background-color: #0c0d0f;
+    transition: 0.2s;
+    color: azure;
+}
+.opt-button-disable{
+    cursor: not-allowed;
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.next-button{
+    margin-top: 20px;
+    background-color: rgb(63, 63, 207);
+    width: 80px;
+    padding: 8px;
+    font-size: 16px;
+}
+.try-button{
+    background-color: rgb(115, 238, 121);
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+}
+.next-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
